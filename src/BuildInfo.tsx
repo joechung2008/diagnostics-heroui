@@ -16,7 +16,7 @@ const BuildInfo: React.FC<BuildInfoProps> = ({ buildVersion }) => {
         value: buildVersion,
       },
     ],
-    []
+    [buildVersion]
   );
 
   return (
