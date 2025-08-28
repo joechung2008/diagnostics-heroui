@@ -1,7 +1,9 @@
 export function isExtensionInfo(
   value: Extension | undefined
 ): value is ExtensionInfo {
-  return value !== undefined && "extensionName" in value;
+  return (
+    value !== undefined && typeof value === "object" && "extensionName" in value
+  );
 }
 
 export function byKey(a: KeyedNavLink, b: KeyedNavLink): number {
