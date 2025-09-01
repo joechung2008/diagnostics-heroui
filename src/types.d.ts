@@ -9,6 +9,12 @@ declare global {
     config: Record<string, string>;
   }
 
+  interface Diagnostics {
+    buildInfo: BuildInfoProps;
+    extensions: Record<string, Extension>;
+    serverInfo: ServerInfoProps;
+  }
+
   type Extension = ExtensionInfo | ExtensionError;
 
   interface ExtensionError {
