@@ -62,11 +62,11 @@ exports[`BuildInfo > matches snapshot 1`] = `
           role="rowgroup"
         >
           <tr
-            aria-labelledby="react-aria-«r0»-0-$.0"
+            aria-labelledby="react-aria-«r0»-BuildVersion-$.0"
             class="group/tr outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2"
             data-collection="react-aria-«r1»"
             data-first="true"
-            data-key="0"
+            data-key="Build Version"
             data-last="true"
             id="react-aria-«r5»"
             role="row"
@@ -75,8 +75,8 @@ exports[`BuildInfo > matches snapshot 1`] = `
             <td
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
-              data-key="0.0"
-              id="react-aria-«r0»-0-$.0"
+              data-key="Build Version.0"
+              id="react-aria-«r0»-BuildVersion-$.0"
               role="rowheader"
               tabindex="-1"
             >
@@ -87,7 +87,7 @@ exports[`BuildInfo > matches snapshot 1`] = `
             <td
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
-              data-key="0.1"
+              data-key="Build Version.1"
               id="react-aria-«r7»"
               role="gridcell"
               tabindex="-1"

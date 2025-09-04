@@ -1,21 +1,23 @@
-import prettier from "eslint-config-prettier";
+import prettierConfig from "eslint-config-prettier";
 import prettierPlugin from "eslint-plugin-prettier";
+import reactDomPlugin from "eslint-plugin-react-dom";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
+import reactPlugin from "eslint-plugin-react-x";
 import { globalIgnores } from "eslint/config";
 import globals from "globals";
 import tseslint from "typescript-eslint";
 
-export default tseslint.config([
+export default [
   globalIgnores(["coverage", "dist", "**/*.d.ts"]),
+  ...tseslint.configs.recommended,
+  reactPlugin.configs["recommended-typescript"],
+  reactDomPlugin.configs.recommended,
+  reactHooks.configs["recommended-latest"],
+  reactRefresh.configs.vite,
+  prettierConfig,
   {
     files: ["**/*.{ts,tsx}"],
-    ...prettier,
-    extends: [
-      tseslint.configs.recommended,
-      reactHooks.configs["recommended-latest"],
-      reactRefresh.configs.vite,
-    ],
     plugins: {
       prettier: prettierPlugin,
     },
@@ -27,4 +29,4 @@ export default tseslint.config([
       "prettier/prettier": "error",
     },
   },
-]);
+];
