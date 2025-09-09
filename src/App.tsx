@@ -108,7 +108,7 @@ const App: React.FC = () => {
   return (
     <div className="flex flex-col gap-2 h-screen">
       <Navbar maxWidth="full">
-        <NavbarContent justify="start">
+        <NavbarContent as="nav" justify="start">
           <Dropdown>
             <DropdownTrigger>
               <Button variant="bordered">{environmentName}</Button>
