@@ -23,16 +23,24 @@ const Configuration: React.FC<ConfigurationProps> = ({ config }) => {
       <h2 className="text-2xl font-semibold" id="configurations">
         Configuration
       </h2>
-      <Table aria-labelledby="configurations" isStriped>
+      <Table aria-labelledby="configurations" role="table">
         <TableHeader>
-          <TableColumn>Key</TableColumn>
-          <TableColumn>Value</TableColumn>
+          <TableColumn id="config-key-header" scope="col">
+            Key
+          </TableColumn>
+          <TableColumn id="config-value-header" scope="col">
+            Value
+          </TableColumn>
         </TableHeader>
         <TableBody>
           {items.map((item) => (
             <TableRow key={item.key}>
-              <TableCell>{item.key}</TableCell>
-              <TableCell>{item.value}</TableCell>
+              <TableCell role="cell" headers="config-key-header">
+                {item.key}
+              </TableCell>
+              <TableCell role="cell" headers="config-value-header">
+                {item.value}
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>

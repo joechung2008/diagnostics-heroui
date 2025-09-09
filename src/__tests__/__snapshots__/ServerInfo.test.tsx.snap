@@ -14,7 +14,7 @@ exports[`ServerInfo > matches snapshot 1`] = `
         class="min-w-full h-auto table-auto w-full"
         data-collection="react-aria-«r1»"
         id="react-aria-«r0»"
-        role="grid"
+        role="table"
         tabindex="0"
       >
         <thead
@@ -31,8 +31,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               data-collection="react-aria-«r1»"
               data-key="$.0"
               data-react-aria-pressable="true"
-              id="react-aria-«r0»-$.0"
+              id="server-name-header"
               role="columnheader"
+              scope="col"
               tabindex="-1"
             >
               Name
@@ -43,8 +44,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               data-collection="react-aria-«r1»"
               data-key="$.1"
               data-react-aria-pressable="true"
-              id="react-aria-«r0»-$.1"
+              id="server-value-header"
               role="columnheader"
+              scope="col"
               tabindex="-1"
             >
               Value
@@ -75,8 +77,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Hostname.0"
+              headers="server-name-header"
               id="react-aria-«r0»-Hostname-$.0"
-              role="rowheader"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -87,8 +90,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Hostname.1"
+              headers="server-value-header"
               id="react-aria-«r7»"
-              role="gridcell"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -111,8 +115,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Uptime.0"
+              headers="server-name-header"
               id="react-aria-«r0»-Uptime-$.0"
-              role="rowheader"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -123,8 +128,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Uptime.1"
+              headers="server-value-header"
               id="react-aria-«ra»"
-              role="gridcell"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -146,8 +152,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Server ID.0"
+              headers="server-name-header"
               id="react-aria-«r0»-ServerID-$.0"
-              role="rowheader"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -158,8 +165,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Server ID.1"
+              headers="server-value-header"
               id="react-aria-«rd»"
-              role="gridcell"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -182,8 +190,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Deployment ID.0"
+              headers="server-name-header"
               id="react-aria-«r0»-DeploymentID-$.0"
-              role="rowheader"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -194,8 +203,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Deployment ID.1"
+              headers="server-value-header"
               id="react-aria-«rg»"
-              role="gridcell"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -217,8 +227,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Node Versions.0"
+              headers="server-name-header"
               id="react-aria-«r0»-NodeVersions-$.0"
-              role="rowheader"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -229,8 +240,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Node Versions.1"
+              headers="server-value-header"
               id="react-aria-«rj»"
-              role="gridcell"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -253,8 +265,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Extension Sync | Total Sync All Count.0"
+              headers="server-name-header"
               id="react-aria-«r0»-ExtensionSync|TotalSyncAllCount-$.0"
-              role="rowheader"
+              role="cell"
               tabindex="-1"
             >
               <span>
@@ -265,8 +278,9 @@ exports[`ServerInfo > matches snapshot 1`] = `
               class="py-2 px-3 relative align-middle whitespace-normal text-small font-normal [&>*]:z-1 [&>*]:relative outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 before:pointer-events-none before:content-[''] before:absolute before:z-0 before:inset-0 before:opacity-0 data-[selected=true]:before:opacity-100 group-data-[disabled=true]/tr:text-foreground-300 group-data-[disabled=true]/tr:cursor-not-allowed before:bg-default/60 data-[selected=true]:text-default-foreground first:before:rounded-s-lg last:before:rounded-e-lg text-start"
               data-collection="react-aria-«r1»"
               data-key="Extension Sync | Total Sync All Count.1"
+              headers="server-value-header"
               id="react-aria-«rm»"
-              role="gridcell"
+              role="cell"
               tabindex="-1"
             >
               <span>

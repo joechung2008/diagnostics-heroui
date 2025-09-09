@@ -19,16 +19,24 @@ const StageDefinition: React.FC<StageDefinitionProps> = ({
       <h2 className="text-2xl font-semibold" id="stage-definitions">
         Stage Definitions
       </h2>
-      <Table aria-labelledby="stage-definitions" isStriped>
+      <Table aria-labelledby="stage-definitions" role="table">
         <TableHeader>
-          <TableColumn>Key</TableColumn>
-          <TableColumn>Value</TableColumn>
+          <TableColumn id="stage-key-header" scope="col">
+            Key
+          </TableColumn>
+          <TableColumn id="stage-value-header" scope="col">
+            Value
+          </TableColumn>
         </TableHeader>
         <TableBody>
           {items.map((item) => (
             <TableRow key={item.key}>
-              <TableCell>{item.key}</TableCell>
-              <TableCell>{item.value.join(", ")}</TableCell>
+              <TableCell role="cell" headers="stage-key-header">
+                {item.key}
+              </TableCell>
+              <TableCell role="cell" headers="stage-value-header">
+                {item.value.join(", ")}
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>

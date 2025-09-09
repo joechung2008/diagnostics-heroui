@@ -20,16 +20,24 @@ const BuildInfo: React.FC<BuildInfoProps> = ({ buildVersion }) => {
   );
 
   return (
-    <Table aria-label="Build Information">
+    <Table aria-label="Build Information" role="table">
       <TableHeader>
-        <TableColumn>Name</TableColumn>
-        <TableColumn>Value</TableColumn>
+        <TableColumn id="build-name-header" scope="col">
+          Name
+        </TableColumn>
+        <TableColumn id="build-value-header" scope="col">
+          Value
+        </TableColumn>
       </TableHeader>
       <TableBody>
         {items.map((item) => (
           <TableRow key={item.name}>
-            <TableCell>{item.name}</TableCell>
-            <TableCell>{item.value}</TableCell>
+            <TableCell role="cell" headers="build-name-header">
+              {item.name}
+            </TableCell>
+            <TableCell role="cell" headers="build-value-header">
+              {item.value}
+            </TableCell>
           </TableRow>
         ))}
       </TableBody>

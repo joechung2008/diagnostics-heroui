@@ -43,16 +43,24 @@ const ServerInfo: React.FC<ServerInfoProps> = ({
   ];
 
   return (
-    <Table aria-label="Server Information">
+    <Table aria-label="Server Information" role="table">
       <TableHeader>
-        <TableColumn>Name</TableColumn>
-        <TableColumn>Value</TableColumn>
+        <TableColumn id="server-name-header" scope="col">
+          Name
+        </TableColumn>
+        <TableColumn id="server-value-header" scope="col">
+          Value
+        </TableColumn>
       </TableHeader>
       <TableBody>
         {items.map((item) => (
           <TableRow key={item.name}>
-            <TableCell>{item.name}</TableCell>
-            <TableCell>{item.value}</TableCell>
+            <TableCell role="cell" headers="server-name-header">
+              {item.name}
+            </TableCell>
+            <TableCell role="cell" headers="server-value-header">
+              {item.value}
+            </TableCell>
           </TableRow>
         ))}
       </TableBody>

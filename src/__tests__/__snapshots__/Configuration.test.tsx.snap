@@ -20,7 +20,7 @@ exports[`Configuration > matches snapshot 1`] = `
           aria-labelledby="configurations"
           class="min-w-full h-auto table-auto w-full"
           id="react-aria-«r0»"
-          role="grid"
+          role="table"
           tabindex="0"
         >
           <thead
@@ -37,8 +37,9 @@ exports[`Configuration > matches snapshot 1`] = `
                 data-collection="react-aria-«r1»"
                 data-key="$.0"
                 data-react-aria-pressable="true"
-                id="react-aria-«r0»-$.0"
+                id="config-key-header"
                 role="columnheader"
+                scope="col"
                 tabindex="-1"
               >
                 Key
@@ -49,8 +50,9 @@ exports[`Configuration > matches snapshot 1`] = `
                 data-collection="react-aria-«r1»"
                 data-key="$.1"
                 data-react-aria-pressable="true"
-                id="react-aria-«r0»-$.1"
+                id="config-value-header"
                 role="columnheader"
+                scope="col"
                 tabindex="-1"
               >
                 Value
